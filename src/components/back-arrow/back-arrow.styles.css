@@ -1,0 +1,15 @@
+@keyframes fadeInArrow{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.arrow{
+    animation-name: fadeInArrow;
+    animation-duration: 1s;
+    width: 8px;
+    position: absolute
+}

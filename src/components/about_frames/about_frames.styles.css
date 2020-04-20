@@ -1,0 +1,21 @@
+
+
+.about-frames{
+    transition-duration: .8s;
+    font-size: 25px;
+    z-index: 5
+}
+
+.about-frames p{
+    cursor: pointer;
+}
+
+.about-frames.active{
+    margin-top: 25%;
+}
+
+.about-frames.slide-out{
+    margin-left: -100px;
+    transition-duration: .8s;
+    opacity: 0;
+}

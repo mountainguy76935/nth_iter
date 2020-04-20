@@ -1,0 +1,9 @@
+.captions{
+    text-align: none;
+    position: absolute;    
+    left: 0;
+    top:60px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 5%;
+}
+

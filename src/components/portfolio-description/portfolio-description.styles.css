@@ -1,0 +1,15 @@
+.description{
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 16%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+    width: 300px;
+    opacity: 0;
+    transition-duration: .8s
+}
+
+.description.active{
+    opacity: 1;
+}

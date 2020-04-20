@@ -1,0 +1,77 @@
+@keyframes borderGrow{
+    0%{
+        width: 0px;
+    }
+    100%{
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 380px) and (min-width: 350px){
+    .row{
+        width: 80%
+    }
+}
+
+@media screen and (max-width: 520px) and (min-width: 380px){
+    .row{
+        width: 100%
+    }
+}
+
+@media screen and (min-width: 520px) {
+    .row{
+        width: 40%
+    }
+}
+
+.row{
+    padding-top: 10px;
+    margin-top: .3%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: fixed;
+    z-index: 10;
+    font-family: 'Open Sans Condensed', sans-serif;
+    transition: .3s;
+}
+
+.row1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: -15px;
+    margin-left: -70px;
+    position: fixed;
+    width: 0%;
+    height: 0%;
+    z-index: 0;
+    font-weight: lighter;
+    opacity: 0;
+    transition: .3s;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+  
+
+.hov{
+    transition: transform .3s ease-out;
+    text-align: center
+}
+
+.linkClass.active{
+    font-size: 10px;
+    transition-duration: .3s
+}
+
+.linkClass{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    transition-duration: .2s;
+    border-bottom: white solid 0.01rem
+}
+
+.linkClass:hover{
+    transition-timing-function: ease-in;
+    font-size: 21px;
+    border-bottom: black solid .1rem
+}

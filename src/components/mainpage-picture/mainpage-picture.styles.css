@@ -1,0 +1,42 @@
+@keyframes fadeInPicture{
+    from {
+        opacity: 0;
+        z-index: 0;
+        margin-left: 40%;
+    }
+    to{
+        opacity: 1;
+        z-index: 0;
+        margin-left: 42%;
+    }
+}
+
+@media screen and (max-width: 968px) {
+    .the_image{
+        left: 45%;
+        position: absolute;
+        z-index: 0;
+    }
+    
+}
+
+.the_image{
+    justify-content: flex-end;
+    display: flex;
+    margin-right: 8%;
+    grid-area: 2 / 2 / 2 / 2;
+    animation-duration: 1s;
+    width: 50%;
+    animation-fill-mode: forwards;
+    animation-name: fadeInPicture;
+}
+
+.the_image img{
+    justify-content: flex-end;
+    display: flex;
+    margin-right: 8%;
+    grid-area: 2 / 2 / 2 / 2;
+    height: 100%;
+    width: auto;
+    z-index: 3
+}
