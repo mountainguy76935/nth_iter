@@ -30,7 +30,7 @@ const data = [
       link: 'https://codepen.io/mountainguy76935'
     },
     {
-      name: "Regular Calculator",
+      name: "Calculator",
       id: "img7",
       tagline: "This is a small calculator made with React.",
       link: 'https://my-spectacular-website.herokuapp.com/calculator'

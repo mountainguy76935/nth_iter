@@ -1,20 +1,51 @@
-.circles{
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    margin: 3%;
-    background-color: black;
-    text-decoration: none;
-    color: black;
-    transition-duration: .3s;
+@media screen and (max-width: 600px) {
+    .circles{
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        margin: 3%;
+        background-color: black;
+        text-decoration: none;
+        color: black;
+        transition-duration: .3s;
+        border: black solid 0px;
+    }
+
+    .circles.active{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        margin: 3%;
+        background-color: white;
+        border: black solid 1px;
+        text-decoration: none;
+        color: black;
+    
+    }
 }
 
-.circles.active{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    margin: 3%;
-    background-color: black;
-    text-decoration: none;
-    color: black;
+@media screen and (min-width: 600px) {
+    .circles{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        margin: 3%;
+        background-color: black;
+        text-decoration: none;
+        color: black;
+        transition-duration: .3s;
+        border: black solid 0px;
+    }
+
+    .circles.active{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin: 3%;
+        background-color: white;
+        border: black solid 1px;
+        text-decoration: none;
+        color: black;
+    
+    }
 }

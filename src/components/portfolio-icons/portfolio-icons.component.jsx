@@ -27,7 +27,7 @@ export const PortIcons = (props) => {
                 } 
                 target="_blank" 
                 rel="noopener noreferrer"
-                >0</a>
+                > </a>
         </React.Fragment>
     )
 }

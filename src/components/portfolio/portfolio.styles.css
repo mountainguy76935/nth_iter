@@ -1,8 +1,21 @@
-.grid{
-    display: flex;
-    flex-direction: row;
-    padding-top: 5%;
-    width: 50%;
-    position: absolute;
-    left: 10%;
+@media screen and (max-width: 600px) {
+    .grid{
+        display: flex;
+        flex-direction: row;
+        padding-top: 15%;
+        width: 80%;
+        position: absolute;
+        left: 10%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .grid{
+        display: flex;
+        flex-direction: row;
+        padding-top: 5%;
+        width: 50%;
+        position: absolute;
+        left: 10%;
+    }
 }

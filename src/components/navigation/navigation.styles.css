@@ -7,9 +7,22 @@
     }
 }
 
+@media screen and (max-width: 350px){
+    .row{
+        width: 90%
+    }
+    .linkClass{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+        transition-duration: .2s;
+        border-bottom: white solid 0.01rem
+    }
+}
+
 @media screen and (max-width: 380px) and (min-width: 350px){
     .row{
-        width: 80%
+        width: 80%;
     }
 }
 

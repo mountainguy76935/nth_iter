@@ -6,10 +6,12 @@ import { PartyButton } from '../components/party-button/party-button.component'
 export const PortfolioPage = () => {
     
     return(
-        <div>
-            <PortfolioGrid />
+        <div className='portfolio'>
+            <div className='left'>
+                <PortfolioGrid />
+                <PartyButton />
+            </div>
             <MainPagePicture />
-            <PartyButton />
         </div>
     )
 }
