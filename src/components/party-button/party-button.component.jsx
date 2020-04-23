@@ -1,14 +1,13 @@
 import React from 'react';
 import './party-button.styles.css';
 
-export const PartyButton = () => {
+export const PartyButton = (props) => {
+
     return(
-        <div className="party-button">
-            <a
-                href='https://my-spectacular-website.herokuapp.com/'
-            >
-            Click To Make This Page Groovy!
-            </a>
+        <div className="party-button" onClick={props.handleClick}>
+            {props.active === false ? 
+            <p>Party Button!</p> :
+            <p className = 'groovy'>Business Button!</p>}
         </div>
     )
 }

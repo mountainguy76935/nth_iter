@@ -1,43 +1,66 @@
+import tips from "../images/tips.png";
+import github from "../images/github.png";
+import codepen from '../images/codepen.jpg';
+import shapes from '../images/shapes.jpg';
+import calc from '../images/calc.png';
+import chem from '../images/chem.jpg';
+import money from '../images/money.jpg';
+import stars from '../images/stars.jpg'
+
 const data = [
     {
       name: "Shapes",
       id: "img1",
-      tagline: "I created this app using plain CSS and HTML. Full screen and click around!",
+      src: shapes,
+      tagline: "App with animated shapes! Full screen and click around.",
       link: "https://some-wild-shapes.herokuapp.com/"
     },
     {
       name: "Nasa API",
       id: "img2",
-      tagline: "Just a nifty program that features NASA's picture of the day.",
+      src: stars,
+      tagline: "Just a nifty program that features NASA's picture of the day",
       link: "https://my-spectacular-website.herokuapp.com/daily_pic"
     },
     {
       name: "Tip Out Calculator",
       id: "img3",
-      tagline: "This is a tip out calculator I made to help service workers keep track of their tips and revenue during their shifts.",
+      src: tips,
+      tagline: "Title says it all!",
       link: 'https://mountainguy76935.github.io/tip_out_calc/'
+    },
+    {
+      name: "Github",
+      id: "img4",
+      src: github,
+      tagline: "My github! This site has some of my solutions to problems from the Euler Project along with the source code for my apps.",
+      link: 'https://github.com/mountainguy76935'
     },
     {
       name: "Tip Out calculator (Part 2)",
       id: "img5",
+      src: money,
       tagline: "Another version of my tip out calculator. This one uses mongoDB, express, and MVC architecture.",
       link: "https://tip-out-calc.herokuapp.com/"
     },
     {
       name: "Code Pen",
       id: "img6",
-      tagline: "Come check out some of my CSS animations and miniature projects.",
+      src: codepen,
+      tagline: "Some programs to showcase HTML/CSS/JavaScript",
       link: 'https://codepen.io/mountainguy76935'
     },
     {
-      name: "Calculator",
+      name: "Regular Calculator",
       id: "img7",
-      tagline: "This is a small calculator made with React.",
+      src: calc,
+      tagline: "Little React Calculator",
       link: 'https://my-spectacular-website.herokuapp.com/calculator'
     }, 
     {
       name: "Periodic Table App",
       id: "img8",
+      src: chem,
       tagline: "Learn some chemistry! Periodic table made using an API, React, and Express (desktop only, for now!)",
       link: 'https://greatest-periodic-table-foreal.herokuapp.com'
     }

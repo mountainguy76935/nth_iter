@@ -2,21 +2,28 @@
     .party-button{
         position: absolute;
         top: 85%;
-        right: 85%;
+        right: 45%;
         height: 50px;
-        width: 150px;
+        width: 85px;
+        transition-duration: .8s;
+        cursor: pointer;
     }
     
-    .party-button a{
+    .party-button p{
         text-decoration: none;
         color: black;
         font-family: 'Open Sans Condensed', sans-serif;
         font-size: 20px; 
     }
     
-    .party-button a:hover{
+    .party-button p:hover{
         color: white;
-        background-color: black;
+        background-color: #EFC413;
+        transition-duration: .8s
+    }
+    .party-button p.groovy:hover{
+        color: white;
+        background-color: transparent
     }
 }
 
@@ -26,18 +33,20 @@
         top: 85%;
         right: 45%;
         height: 50px;
-        width: 150px;
+        width: 85px;
+        transition-duration: .8s;
+        cursor: pointer;
     }
     
-    .party-button a{
+    .party-button p{
         text-decoration: none;
         color: black;
         font-family: 'Open Sans Condensed', sans-serif;
         font-size: 20px; 
     }
     
-    .party-button a:hover{
+    .party-button p:hover{
         color: white;
-        background-color: black;
+        background-color: #EFC413;
     }
 }
