@@ -4,8 +4,6 @@ import { Captions } from '../caption/captions.component'
 import './about_frames.styles.css'
 
 export const AboutFrames = (props) => {
-    //const [finished, setFinished] = React.useState(false)
-
     return (
         <React.Fragment>
             {props.active ? 
