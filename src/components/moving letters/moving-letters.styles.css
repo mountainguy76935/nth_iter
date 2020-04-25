@@ -26,6 +26,7 @@
   }
   
   .container{
+    font-display: auto;
     position: absolute;
     margin-left: 10%;
     margin-top: 160px;
