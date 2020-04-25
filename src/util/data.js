@@ -20,7 +20,7 @@ const data = [
       id: "img2",
       src: stars,
       tagline: "Just a nifty program that features NASA's picture of the day",
-      link: "https://my-spectacular-website.herokuapp.com/daily_pic"
+      link: "https://my-spectacular-projects.herokuapp.com/daily_pic"
     },
     {
       name: "Tip Out Calculator",
@@ -55,7 +55,7 @@ const data = [
       id: "img7",
       src: calc,
       tagline: "Little React Calculator",
-      link: 'https://my-spectacular-website.herokuapp.com/calculator'
+      link: 'https://my-spectacular-projects.herokuapp.com/calculator'
     }, 
     {
       name: "Periodic Table App",
