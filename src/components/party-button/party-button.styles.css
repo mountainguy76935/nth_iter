@@ -1,8 +1,8 @@
 @media screen and (min-width: 600px) {
     .party-button{
         position: absolute;
-        top: 85%;
-        right: 45%;
+        top: 80%;
+        right: 85%;
         height: 50px;
         width: 85px;
         transition-duration: .8s;
@@ -23,30 +23,23 @@
     }
     .party-button p.groovy:hover{
         color: white;
-        background-color: transparent
+        background-color: black
+    }
+    .party-button p.groovy{
+        width: 60px
     }
 }
 
 @media screen and (max-width: 600px) {
     .party-button{
-        position: absolute;
-        top: 85%;
-        right: 45%;
-        height: 50px;
-        width: 85px;
-        transition-duration: .8s;
-        cursor: pointer;
+        opacity: 0
     }
     
     .party-button p{
-        text-decoration: none;
-        color: black;
-        font-family: 'Open Sans Condensed', sans-serif;
-        font-size: 20px; 
+        opacity: 0
     }
     
     .party-button p:hover{
-        color: white;
-        background-color: #EFC413;
+        opacity: 0
     }
 }

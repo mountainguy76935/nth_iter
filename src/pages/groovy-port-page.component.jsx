@@ -6,10 +6,16 @@ import './groovy-port-page.styles.css'
 import Data from '../util/data';
 
 export const GroovyPortPage = (props) => {
-    const colorLeft = ['#E99A17', '#D45717', '#d76735', '#CB303E'];
-    const colorRight = ['#f2d8b3', '#8fb0a9', '#7ba247', '#55893c'];
+    const [color, setColor] = React.useState('')
     const [tagline, setTagline] = React.useState('');
     const [title, setTitle] = React.useState('');
+
+    const changeColor = (val) => {
+        setColor(val)
+    }
+    const colorLeft = ['#E99A17', '#D45717', '#d76735', '#CB303E'];
+    const colorRight = ['#f2d8b3', '#8fb0a9', '#7ba247', '#55893c'];
+    
 
     const handleHover = (val) => {
         if (val !== tagline) {
@@ -22,18 +28,24 @@ export const GroovyPortPage = (props) => {
 
     return (
         <React.Fragment>
-            <Title {...props} newTitle={title}/>
+            <Title 
+            {...props} 
+            mainColor={color} 
+            handleChange={changeColor}
+            newTitle={title}/>
             <div className="circle_list">
                 <div  
                     className='leftCircle'
                     style={{
                     float: 'left'
                 }}>
-                    {Data.slice(0, 4).map((a, i) => {
+                    {Data.slice(0, 3).map((a, i) => {
                     return <Circles
                             picture={a}
                             color={colorLeft[i]}
                             {...props}
+                            mainColor={color} 
+                            handleChange={changeColor}
                             handleHover = {handleHover}
                             /> 
                 })}
@@ -44,10 +56,12 @@ export const GroovyPortPage = (props) => {
                     float: 'right',
                     marginRight: '3%'
                 }}>
-                    {Data.slice(4).map((a, i) => {
+                    {Data.slice(3).map((a, i) => {
                     return <Circles 
                             picture={a}
                             color={colorRight[i]}
+                            mainColor={color} 
+                            handleChange={changeColor}
                             {...props}
                             handleHover = {handleHover}
                             /> 
@@ -57,7 +71,7 @@ export const GroovyPortPage = (props) => {
                     <p>{tagline}</p>
                 </div>
             </div>
-            <PartyButton handleClick={props.handleClick} active={props.active}/>
+            <PartyButton {...props}/>
         </React.Fragment>
     )
 }

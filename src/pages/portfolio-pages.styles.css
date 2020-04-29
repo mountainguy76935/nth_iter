@@ -1,16 +1,17 @@
 @media screen and (max-width: 610px) {
-    .portfolio{
-        display: block;
-    }
     .left{
         width: 300px;
         height: 605px;
-        position: relative
+        position: relative;
+        z-index: 10;
     }
 }
 
-.left{
-    width: 300px;
-    height: 605px;
-    position: relative
+@media screen and (min-width: 610px) {
+    .left{
+        width: 300px;
+        height: 605px;
+        position: relative;
+        z-index: 10
+    }
 }

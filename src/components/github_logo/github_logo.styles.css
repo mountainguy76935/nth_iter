@@ -1,8 +1,4 @@
     .github_image{
-        position:absolute;
-        float: right;
-        top:0;
-        right:0;
-        z-index: 2;
-        margin: .1%;
+        float: left;
+        padding-top: 8%;
     }

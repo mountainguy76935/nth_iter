@@ -4,8 +4,6 @@ import codepen from '../images/codepen.jpg';
 import shapes from '../images/shapes.jpg';
 import calc from '../images/calc.png';
 import chem from '../images/chem.jpg';
-import money from '../images/money.jpg';
-import stars from '../images/stars.jpg'
 
 const data = [
     {
@@ -16,18 +14,11 @@ const data = [
       link: "https://some-wild-shapes.herokuapp.com/"
     },
     {
-      name: "Nasa API",
-      id: "img2",
-      src: stars,
-      tagline: "Just a nifty program that features NASA's picture of the day",
-      link: "https://my-spectacular-projects.herokuapp.com/daily_pic"
-    },
-    {
       name: "Tip Out Calculator",
       id: "img3",
       src: tips,
       tagline: "Title says it all!",
-      link: 'https://mountainguy76935.github.io/tip_out_calc/'
+      link: 'https://tip-out-calc.herokuapp.com/'
     },
     {
       name: "Github",
@@ -35,13 +26,6 @@ const data = [
       src: github,
       tagline: "My github! This site has some of my solutions to problems from the Euler Project along with the source code for my apps.",
       link: 'https://github.com/mountainguy76935'
-    },
-    {
-      name: "Tip Out calculator (Part 2)",
-      id: "img5",
-      src: money,
-      tagline: "Another version of my tip out calculator. This one uses mongoDB, express, and MVC architecture.",
-      link: "https://tip-out-calc.herokuapp.com/"
     },
     {
       name: "Code Pen",

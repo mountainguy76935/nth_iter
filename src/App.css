@@ -1,5 +1,5 @@
-.App{
-    height: 100%;
-    width: 100%;
-    transition-duration: 1.5s
-}
+    .App{
+        height: 100%;
+        transition-duration: 1.5s;
+        overflow: hidden
+    }

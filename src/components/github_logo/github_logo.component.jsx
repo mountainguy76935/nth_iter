@@ -9,8 +9,8 @@ export const GithubLogo = () => (
             <img
                 src='https://image.flaticon.com/icons/svg/25/25231.svg'
                 alt="github"
-                height="50px"
-                width="50px"
+                height="20px"
+                width="20px"
             />
         </a>
     </div>

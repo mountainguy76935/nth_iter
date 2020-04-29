@@ -1,5 +1,5 @@
 import React from 'react';
-import { MainPagePicture } from '../components/mainpage-picture/mainpage-picture.component';
+import { OtherPagePicture } from '../components/otherpage-picture/otherpage-picture.component';
 import AboutPics from '../util/about';
 import { AboutFrames } from '../components/about_frames/about_frames.components';
 import './about-page.styles.css'
@@ -47,7 +47,7 @@ export const AboutPage = () => {
                     />)
             }
             </div>
-            <MainPagePicture />
+            <OtherPagePicture />
         </div>
     )
 }

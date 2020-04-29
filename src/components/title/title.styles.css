@@ -1,55 +1,24 @@
 @keyframes groovyFadeIn { from { opacity:0; } to { opacity:1} }
 
-@media screen and (max-width: 320px) {
-  .groovy-title{
-    margin-top: -70px;
-    position: absolute;
-    font-size: 10px;
+@media screen and (min-width: 710px) {
+  .groovy-fade {
+    padding-top: -10px;
+    opacity:0;
+    animation:groovyFadeIn ease-in 1;
+    animation-fill-mode:forwards;
+    animation-duration:1s;
+    text-align: center;
+    justify-content: center;
+    z-index: 20;
+    height: 100%
+  }
+
+  .groovy-title {
     animation: groovyFadeIn ease-in 1;
     animation-fill-mode:forwards;
     animation-duration:1s;
     font-family: 'Pacifico', cursive;
-    font-size: 32px;
-    transform: translate(-50%, 0%);
-    z-index: 20;
-    opacity: 0;
-    width: 100%;
-  }
-  .groovy-fade{
-    width: 375px;
-    overflow-x: hidden;
-  }
-}
-
-@media screen and (max-width: 400px) and (min-width: 330px) {
-  .groovy-title{
-    margin-top: -70px;
-    position: absolute;
-    font-size: 10px;
-    animation: fadeIn ease-in 1;
-    animation-fill-mode:forwards;
-    animation-duration:1s;
-    font-family: 'Pacifico', cursive;
-    font-size: 32px;
-    transform: translate(-50%, -90%);
-    z-index: 20;
-    opacity: 0;
-    width: 100%;
-  }
-  .groovy-fade{
-    width: 375px;
-    overflow-x: hidden;
-  }
-}
-
-@media screen and (min-height: 1000px) {
-  .groovy-title {
-    animation: fadeIn ease-in 1;
-    animation-fill-mode:forwards;
-    animation-duration:1s;
-    font-family: 'Pacifico', cursive;
     font-size: 72px;
-    animation-fill-mode:forwards;
     animation-duration:.1s;
     position: absolute;
     transform: translate(-55%, -90%);
@@ -58,55 +27,29 @@
   }
 }
 
-@media screen and (min-width: 410px) and (max-width: 500px) {
-  .groovy-title {
-    animation: groovyFadeIn ease-in 1;
-    animation-fill-mode:forwards;
-    animation-duration:1s;
-    font-family: 'Pacifico', cursive;
-    font-size: 32px;
-    animation-fill-mode:forwards;
-    animation-duration:.1s;
-    position: absolute;
-    transform: translate(-55%, -150%);
-    z-index: 20;
-    opacity: 0;
-  }
-}
-
-@media screen and (min-width: 1020px) and (max-width: 1040px) {
-  .groovy-fade{
-    width: 100%
-  }
-}
-
-@media screen and (min-width: 500px) and (max-height: 900px) {
-  .groovy-title {
-    animation: groovyFadeIn ease-in 1;
-    animation-fill-mode:forwards;
-    animation-duration:1s;
-    font-family: 'Pacifico', cursive;
-    font-size: 72px;
-    animation-fill-mode:forwards;
-    animation-duration:.1s;
-    position: absolute;
-    transform: translate(-55%, -50%);
-    z-index: 20;
-    opacity: 0;
-    display: flex;
-  }
-}
-
-
-.groovy-fade {
+@media screen and (max-width: 710px) {
+  .groovy-fade {
     padding-top: -10px;
     opacity:0;
     animation:groovyFadeIn ease-in 1;
     animation-fill-mode:forwards;
     animation-duration:1s;
     text-align: center;
-    animation-iteration-count: 1;
-    display: flex;
-    flex-direction: row;
     justify-content: center;
+    z-index: 20;
+    height: 100%
   }
+
+  .groovy-title {
+    animation: groovyFadeIn ease-in 1;
+    animation-fill-mode:forwards;
+    animation-duration:1s;
+    font-family: 'Pacifico', cursive;
+    font-size: 22px;
+    animation-duration:.1s;
+    position: absolute;
+    transform: translate(-55%, -90%);
+    z-index: 20;
+    opacity: 0;
+  }
+}

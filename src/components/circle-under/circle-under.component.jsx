@@ -26,8 +26,6 @@ export const CircleUnder = (props) => (
                         className="cardImages" 
                         alt={props.picture.id} 
                         src={props.picture.src} 
-                        width="100px" 
-                        height="100px"
                         style={{
                             borderRadius: '50%'
                         }}

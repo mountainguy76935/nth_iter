@@ -1,13 +1,14 @@
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 710px) {
     .circle_list{
-        margin-top: -120%
+        margin-top: -500px;
     }
-
+    
     .rightCircle{
-        padding-right: 15% 
+        padding-right: 6%;
     }
+    
     .leftCircle{
-        margin-left: -9% 
+        padding-left: 0%;
     }
     .groovy-captions{
         background-color: transparent;
@@ -16,78 +17,15 @@
         position: absolute;
         left: 48%;
         max-width: 380px;
-        top: 70%;
-        transform: translate(-48%, -80%);
+        top: 50%;
+        transform: translate(-50%, -50%);
         font-family: 'Open Sans Condensed', sans-serif;
-        font-size: 20px;
+        font-size: 15px;
         opacity: 1
-    }
+    }    
 }
 
-@media screen and (max-width: 400px) and (min-width: 330px) {
-    .circle_list{
-        margin-top: -80%
-    }
-
-    .rightCircle{
-        padding-right: 15% 
-    }
-    .leftCircle{
-        margin-left: -9% 
-    }
-
-    .groovy-captions{
-        background-color: transparent;
-        color: black;
-        z-index: 30;
-        position: absolute;
-        left: 48%;
-        max-width: 380px;
-        top: 70%;
-        transform: translate(-48%, -100%);
-        font-family: 'Open Sans Condensed', sans-serif;
-        font-size: 30px;
-        opacity: 1
-    }
-}
-
-@media screen and (min-width: 1020px) and (max-width: 1040px){
-    .rightCircle{
-        margin-top: -800px;
-    }
-    .leftCircle{
-        margin-top: -800px;
-    }
-}
-
-@media screen and (min-width: 410px) and (max-width: 500px) {
-    .circle_list{
-        margin-top: -80%
-    }
-
-    .rightCircle{
-        padding-right: 15% 
-    }
-    .leftCircle{
-        margin-left: -9% 
-    }
-
-    .groovy-captions{
-        background-color: transparent;
-        color: black;
-        z-index: 30;
-        position: absolute;
-        left: 48%;
-        max-width: 380px;
-        top: 70%;
-        transform: translate(-48%, -120%);
-        font-family: 'Open Sans Condensed', sans-serif;
-        font-size: 30px;
-        opacity: 1
-    }
-}
-
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 710px) {
     .circle_list{
         margin-top: -600px;
     }
@@ -112,6 +50,7 @@
         font-size: 30px;
         opacity: 1
     }
+    
+    
+    
 }
-
-
