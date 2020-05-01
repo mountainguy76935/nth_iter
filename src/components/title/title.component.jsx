@@ -13,6 +13,7 @@ export const Title = (props) => {
                         return(
                         <h1 
                               className = "groovy-title" 
+                              key={i}
                               style={{
                                     top: `${a}%`, 
                                     left: `${leftPer-i/3}%`,

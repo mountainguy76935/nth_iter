@@ -32,9 +32,9 @@ export const Navigation = (props) => {
                 toggled={toggled}
             />
             <div className = {row}> 
-            {pages.map(a => {
+            {pages.map((a, i) => {
                 return (
-                    <span className="hov">
+                    <span className="hov" key={i}>
                         <Link 
                             className={
                                 toggled ? 

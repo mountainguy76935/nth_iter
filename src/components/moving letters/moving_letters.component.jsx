@@ -32,9 +32,7 @@ export class MovingLetters extends React.Component {
   changeIt = (margin1, margin2, val) => {
     if (this.state.letterCounter>2) {
       clearInterval(this.int)
-    } else {
-      console.log(this.state.letterCounter)
-    }
+    } 
     let node = document.querySelector('.below');
     if (node) {
       node.style.marginTop = margin1
@@ -72,6 +70,10 @@ export class MovingLetters extends React.Component {
 
   async componentDidMount() {
       await this.onLoadChange();
+      await setTimeout(function(){
+        let conNode = document.querySelector('.container');
+        conNode.style.opacity = 1;
+      }, 200)
         if (this.state.loaded) {
         this.int = await setInterval(() => {
           let name = this.state.arrayName;
@@ -87,7 +89,6 @@ export class MovingLetters extends React.Component {
   }
 
   componentWillUnmount(){
-    console.log('unmounted')
       clearInterval(this.int)
       this.setState({
         loaded: false,

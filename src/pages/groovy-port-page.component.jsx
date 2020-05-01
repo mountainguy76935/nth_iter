@@ -43,6 +43,7 @@ export const GroovyPortPage = (props) => {
                     return <Circles
                             picture={a}
                             color={colorLeft[i]}
+                            key={i}
                             {...props}
                             mainColor={color} 
                             handleChange={changeColor}
@@ -61,6 +62,7 @@ export const GroovyPortPage = (props) => {
                             picture={a}
                             color={colorRight[i]}
                             mainColor={color} 
+                            key={i}
                             handleChange={changeColor}
                             {...props}
                             handleHover = {handleHover}
@@ -71,7 +73,7 @@ export const GroovyPortPage = (props) => {
                     <p>{tagline}</p>
                 </div>
             </div>
-            <PartyButton {...props}/>
+            <PartyButton handleClick={props.handleClick}/>
         </React.Fragment>
     )
 }

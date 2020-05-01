@@ -12,6 +12,7 @@ export const Stripe = (props) => {
                                             left: `${80*i}px`,
                                             backgroundColor: `${a}`
                                         }} 
+                                        key={i}
                                         className={'stripes'}></div>
                                     )}
                 </div>
@@ -23,7 +24,11 @@ export const Stripe = (props) => {
                         style={{
                             backgroundColor: props.mainColor ? props.mainColor : 'white'
                         }}></div>
-                    {colors.map((a,i) => <div className={'stripe'+(i+1)}></div>)}
+                    {colors.map((a,i) => <div 
+                                            key={i} 
+                                            className={'stripe'+(i+1)}
+                                        >
+                                        </div>)}
                     <div 
                         className="stripe_black_right" 
                         style={{

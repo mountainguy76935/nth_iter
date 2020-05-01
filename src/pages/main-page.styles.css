@@ -3,3 +3,37 @@
     display: grid;
     grid-template-columns: 30% 70%;
 }
+
+.main_caption{
+    position:  fixed;
+    left: 15%;
+    top: 50%;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.main_caption button{
+    cursor: pointer;
+    position: fixed;
+    z-index: 20;
+    border: none;
+    width: 70px;
+    height: 20px;
+    background-color: white;
+    box-shadow: none;
+    border: none;
+    font-size: 80%;
+    transition: ease-in .1s;
+    margin-left: 5%;
+    margin-top: 3%
+}
+
+.main_caption button:hover{
+    background-color: black;
+    border-radius: 70px;
+    color: white;
+    transition: ease-in .1s;
+    cursor: pointer;
+    border: none;
+    width: 90px;
+    height: 30px;
+}

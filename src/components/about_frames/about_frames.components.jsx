@@ -13,11 +13,11 @@ export const AboutFrames = (props) => {
                 </div> :
                 <React.Fragment>
                     <div className='about-frames active'>
-                        <p style={{display: 'inline'}}>
+                        <div style={{display: 'inline'}}>
                             <i><BackArrow handleReset={props.handleReset}/></i>
                             &nbsp;&nbsp;{props.name}
                         <Captions position={props.position} caption={props.caption}/>   
-                        </p>
+                        </div>
                     </div> 
                 </React.Fragment>:
             <div className='about-frames' onClick={() => props.handleClick(props.name)}>

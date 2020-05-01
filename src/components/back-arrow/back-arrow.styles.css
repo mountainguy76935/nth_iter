@@ -11,5 +11,6 @@
     animation-name: fadeInArrow;
     animation-duration: 1s;
     width: 8px;
-    position: absolute
+    position: absolute;
+    cursor: pointer
 }

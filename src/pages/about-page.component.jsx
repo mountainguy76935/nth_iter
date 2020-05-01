@@ -24,23 +24,26 @@ export const AboutPage = () => {
         <div className="about-page">
             <div className="captions">
                 {!clicked ?
-                AboutPics.map(a => 
+                AboutPics.map((a, i) => 
                     <AboutFrames 
                         name={a.name} 
+                        key={i}
                         caption={a.caption}
                         handleClick={handleClick}
                     />) : 
-                AboutPics.map(a => 
+                AboutPics.map((a, i) => 
                     a.name !== findClicked.name ? 
                     <AboutFrames 
                         active={active}
                         name={a.name} 
+                        key={i}
                         caption={a.caption}
                         handleClick={handleClick}
                         slideOut={true}
                     /> : 
                     <AboutFrames 
                         name={findClicked.name} 
+                        key={i}
                         caption={findClicked.caption}
                         active={active}
                         handleReset={handleReset}

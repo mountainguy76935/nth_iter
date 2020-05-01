@@ -18,11 +18,12 @@ export const PortfolioGrid = () => {
     return(
         <React.Fragment>
             <div className="grid">
-                {data.map(a => 
+                {data.map((a,i) => 
                     <PortIcons 
                         name={a.name}
                         tagline={a.tagline}
                         id={a.id}
+                        key={i}
                         link={a.link ? a.link : null}
                         handleHover={handleHover}
                     />
