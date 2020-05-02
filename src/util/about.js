@@ -1,7 +1,7 @@
 const AboutPics = [
     {
         name: "What's up?",
-        caption: "My name is David. I enjoy reading, music, studying, making jokes, skiing, rock climbing, kayaking, guiding, exploring, art, coffee, chocolate lava cake, helping people, discussing crazy topics, and trivia! I also like listing off things I like, and most recently have gotten VERY into computer science and web development. There are a couple things I plan on adding to this site, but until then feel free to navigate around. I appreciate you checking it out!"
+        caption: "My name is David. I enjoy reading, music, studying, making jokes, skiing, rock climbing, kayaking, guiding, exploring, art, coffee, chocolate lava cake, helping people, discussing crazy topics, and trivia! I also like listing off things I like and, most importantly, I love web development. There are a couple things I plan on adding to this site, but until then feel free to navigate around. I appreciate you checking it out!"
     },
     {
         name: 'Growth',
