@@ -21,7 +21,7 @@
     font-size: 72px;
     animation-duration:.1s;
     position: absolute;
-    transform: translate(-55%, -90%);
+    transform: translate(-50%, -60%);
     z-index: 20;
     opacity: 0;
   }

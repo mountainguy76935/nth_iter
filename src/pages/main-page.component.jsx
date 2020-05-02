@@ -5,9 +5,9 @@ import { Captions } from '../components/caption/captions.component'
 import './main-page.styles.css';
 
 export const MainPage = () => {
-    // const [vis, setVis] = React.useState(false)
+    const [vis, setVis] = React.useState(false)
     let caption = "Full-Stack, data-focused developer available for hire. "
-    // setTimeout(() => setVis(true), 200)
+    setTimeout(() => setVis(true), 200)
     return(
         <div className="main_page">
             <MovingLetters />
@@ -17,9 +17,9 @@ export const MainPage = () => {
                 <br></br>
                 <br></br>
                 <br></br>
-                {/* { vis ? 
-                <a href="mailto:david@nth-iter.com"><button>HIRE ME</button></a> : 
-                null} */}
+                { vis ? 
+                <a href="mailto:nth.iter100@gmail.com"><button>HIRE ME</button></a> : 
+                null}
             </div>
         </div>
     )

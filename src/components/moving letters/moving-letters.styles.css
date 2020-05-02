@@ -1,4 +1,4 @@
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 899px) {
   .container{
     position: absolute;
     margin-left: 10%;
@@ -15,7 +15,7 @@
   }
 }
 
-@media screen and (min-width: 420px) {
+@media screen and (min-width: 900px) {
   .container{
     position: absolute;
     margin-left: 10%;

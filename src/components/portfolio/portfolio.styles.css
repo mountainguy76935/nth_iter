@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
     .grid{
         display: flex;
         padding-top: 15%;
@@ -9,7 +9,7 @@
     }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 750px) {
     .grid{
         display: flex;
         flex-direction: row;

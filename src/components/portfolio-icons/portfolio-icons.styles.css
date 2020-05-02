@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
     .circles{
         width: 13px;
         height: 13px;
@@ -24,7 +24,7 @@
     }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 750px) {
     .circles{
         width: 20px;
         height: 20px;

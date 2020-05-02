@@ -1,6 +1,6 @@
 @media screen and (min-width: 600px) {
     .about-frames{
-        transition-duration: .8s;
+        transition-duration: .5s;
         font-size: 25px;
         z-index: 5
     }
@@ -15,14 +15,14 @@
 
     .about-frames.slide-out{
         margin-left: -100px;
-        transition-duration: .8s;
+        transition-duration: .5s;
         opacity: 0;
     }
 }
 
 @media screen and (max-width: 600px) {
     .about-frames{
-        transition-duration: .8s;
+        transition-duration: .5s;
         font-size: 25px;
         z-index: 5;
         margin-bottom: 10% 
@@ -38,7 +38,7 @@
 
     .about-frames.slide-out{
         margin-left: -100px;
-        transition-duration: .8s;
+        transition-duration: .5s;
         opacity: 0;
     }
 }
