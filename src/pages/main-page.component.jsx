@@ -18,7 +18,7 @@ export const MainPage = () => {
                 <br></br>
                 <br></br>
                 { vis ? 
-                <a href="mailto:nth.iter100@gmail.com"><button>HIRE ME</button></a> : 
+                <a href="mailto:nth.iter1000@gmail.com"><button>HIRE ME</button></a> : 
                 null}
             </div>
         </div>
