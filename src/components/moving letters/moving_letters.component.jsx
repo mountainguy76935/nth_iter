@@ -60,14 +60,6 @@ export class MovingLetters extends React.Component {
     })
   }
 
-  handleReload() {
-    this.setState({
-      loaded: false,
-      couter: 0,
-      letterCounter: 0
-    })
-  }
-
   async componentDidMount() {
       await this.onLoadChange();
       await setTimeout(function(){
@@ -92,8 +84,8 @@ export class MovingLetters extends React.Component {
       clearInterval(this.int)
       this.setState({
         loaded: false,
-        letterCounter: 0,
-        counter: 0
+        counter: 0,
+        letterCounter: 0
       })
   }
 

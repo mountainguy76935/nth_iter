@@ -35,11 +35,11 @@ const data = [
       link: 'https://codepen.io/mountainguy76935'
     },
     {
-      name: "Regular Calculator",
+      name: "Mini Projects",
       id: "img7",
       src: calc,
-      tagline: "Little React Calculator",
-      link: 'https://my-spectacular-projects.herokuapp.com/calculator'
+      tagline: "A collection of some smaller projects!",
+      link: 'https://my-spectacular-projects.herokuapp.com'
     }, 
     {
       name: "Periodic Table App",
