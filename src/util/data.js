@@ -18,7 +18,7 @@ const data = [
       id: "img3",
       src: tips,
       tagline: "Title says it all!",
-      link: 'https://tip-out-calc.herokuapp.com/'
+      link: 'https://mountainguy76935.github.io/tip_out_calc/'
     },
     {
       name: "Github",
