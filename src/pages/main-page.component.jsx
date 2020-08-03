@@ -9,10 +9,10 @@ export const MainPage = () => {
     let caption = "Full-Stack, data-focused developer available for hire. "
     setTimeout(() => setVis(true), 200)
     return(
-        <div className="main_page">
+        <div className="main-page">
             <MovingLetters />
             <MainPagePicture />
-            <div className='main_caption'>
+            <div className='main-caption'>
                 <Captions caption={caption}/>
                 <br></br>
                 <br></br>

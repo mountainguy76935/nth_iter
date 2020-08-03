@@ -1,3 +1,4 @@
+  
 import React from 'react';
 import Back from '../../images/back.png';
 import './back-arrow.styles.css'
@@ -5,8 +6,8 @@ import './back-arrow.styles.css'
 export const BackArrow = (props) => {
     return(
         <div 
-            className='arrow'
-            onClick={props.handleReset}
+            className={props.active ? 'arrow active' : 'arrow'}
+            onClick={props.active ? props.handleReset : null}
         >
                 <img
                     src={Back}

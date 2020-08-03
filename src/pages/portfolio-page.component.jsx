@@ -7,7 +7,7 @@ export const PortfolioPage = (props) => {
     
     return(
         <div className='portfolio'>
-            <div className='left'>
+            <div className='portfolio-left'>
                 <PortfolioGrid />
                 <PartyButton handleClick={props.handleClick} active={props.active}/>
             </div>

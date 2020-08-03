@@ -1,17 +1,17 @@
-.main_page{
+.main-page{
     height: 100%;
     display: grid;
     grid-template-columns: 30% 70%;
 }
 
-.main_caption{
+.main-caption{
     position:  fixed;
     left: 15%;
     top: 50%;
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.main_caption button{
+.main-caption button{
     cursor: pointer;
     position: fixed;
     z-index: 20;
@@ -27,13 +27,11 @@
     margin-top: 3%
 }
 
-.main_caption button:hover{
+.main-caption button:hover{
     background-color: black;
     border-radius: 70px;
     color: white;
     transition: ease-in .1s;
     cursor: pointer;
     border: none;
-    width: 90px;
-    height: 30px;
 }

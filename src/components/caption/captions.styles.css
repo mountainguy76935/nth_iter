@@ -7,33 +7,15 @@
         height: 300px;
     }
 }
-
-@media screen and (max-width: 600px) {
     .caption-section{
         animation-duration: 1s;
         animation-delay: .4s;
         animation-name: fadeInCaption;
         animation-fill-mode: forwards;
         opacity: 0;
-        margin: 5%;
-        position: absolute;
-        width: 300px;
-        font-size: 18px;
-        cursor: text;
-    }
-}
-
-@media screen and (min-width: 600px) {
-    .caption-section{
-        animation-duration: 1s;
-        animation-delay: .4s;
-        animation-name: fadeInCaption;
-        animation-fill-mode: forwards;
-        opacity: 0;
-        margin-top: 30%;
         position: absolute;
         width: 400px;
         font-size: 18px;
         cursor: text;
+        background-color: white
     }
-}

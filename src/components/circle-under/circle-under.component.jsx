@@ -23,12 +23,9 @@ export const CircleUnder = (props) => (
                 rel="noopener noreferrer"
                 >
                     <img 
-                        className="cardImages" 
+                        className="card-images" 
                         alt={props.picture.id} 
                         src={props.picture.src} 
-                        style={{
-                            borderRadius: '50%'
-                        }}
                     />
                 </a> :
                 props.picture.link === 'calc' ? 
@@ -37,14 +34,11 @@ export const CircleUnder = (props) => (
                 to="/calculator"
                 >
                 <img 
-                        className="cardImages" 
+                        className="card-images" 
                         alt={props.picture.id} 
                         src={props.picture.src} 
                         width="100px" 
                         height="100px"
-                        style={{
-                            borderRadius: '50%'
-                        }}
                     />
             </Link> : 
             <Link
@@ -52,14 +46,11 @@ export const CircleUnder = (props) => (
                 to="/daily_pic"
                 >
                 <img 
-                    className="cardImages" 
+                    className="card-images" 
                     alt={props.picture.id} 
                     src={props.picture.src} 
                     width="100px" 
                     height="100px"
-                    style={{
-                            borderRadius: '50%'
-                    }}
                 />
             </Link>
             }

@@ -3,11 +3,11 @@
         margin-top: -500px;
     }
     
-    .rightCircle{
+    .right-circle{
         padding-right: 6%;
     }
     
-    .leftCircle{
+    .left-circle{
         padding-left: 0%;
     }
     .groovy-captions{
@@ -30,11 +30,11 @@
         margin-top: -600px;
     }
     
-    .rightCircle{
+    .right-circle{
         padding-right: 6%;
     }
     
-    .leftCircle{
+    .left-circle{
         padding-left: 0%;
     }
     .groovy-captions{
@@ -50,4 +50,13 @@
         font-size: 30px;
         opacity: 1
     }
+}
+
+.right-circle{
+    float: right;
+    margin-right: 3%;
+}
+
+.left-circle{
+    float: left
 }

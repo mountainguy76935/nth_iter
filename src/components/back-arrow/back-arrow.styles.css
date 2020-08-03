@@ -7,10 +7,24 @@
     }
 }
 
+@keyframes fadeOutArrow{
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
 .arrow{
-    animation-name: fadeInArrow;
-    animation-duration: 1s;
+    opacity: 0;
     width: 8px;
     position: absolute;
-    cursor: pointer
+}
+
+.arrow.active{
+    animation-name: fadeInArrow;
+    animation-duration: 1s;
+    cursor: pointer;
+    opacity: 1;
 }
