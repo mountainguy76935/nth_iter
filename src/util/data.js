@@ -1,6 +1,6 @@
 import tips from "../images/tips.png";
 import github from "../images/github.png";
-import codepen from '../images/codepen.jpg';
+import leaf from '../images/leaf.png';
 import handshake from '../images/handshake.png';
 import calc from '../images/calc.png';
 import chem from '../images/chem.jpg';
@@ -28,11 +28,11 @@ const data = [
       link: 'https://github.com/mountainguy76935'
     },
     {
-      name: "Code Pen",
+      name: "Rae's and Kay's Melting Pot",
       id: "img4",
-      src: codepen,
-      tagline: "Some programs to showcase HTML/CSS/JavaScript",
-      link: 'https://codepen.io/mountainguy76935'
+      src: leaf,
+      tagline: "Website for local Puerto Rican/ Soul Food Restaurant",
+      link: 'https://www.raesandkaysmeltingpot.com'
     },
     {
       name: "Mini Projects",

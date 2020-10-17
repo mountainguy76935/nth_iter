@@ -20,6 +20,7 @@
         height: 100%;
         animation-fill-mode: forwards;
         animation-name: fadeInPicture;
+        opacity: 1;
     }
     
     .the_image img{
@@ -47,7 +48,8 @@
         animation-fill-mode: forwards;
         animation-name: fadeInPicture;
         margin-left: 0%;
-        max-width: 100%
+        max-width: 100%;
+        opacity: .5
     }
     
     .the_image img{
@@ -58,7 +60,7 @@
         height: 100%;
         width: auto;
         z-index: 3;
-        min-width: 100%
+        min-width: 100%;
     }
     
 }
